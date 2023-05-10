@@ -1,0 +1,8 @@
+replicaCount: 1
+image:
+  repository: my-go-app
+  pullPolicy: IfNotPresent
+  tag: latest
+service:
+  type: NodePort
+  port: 8080
