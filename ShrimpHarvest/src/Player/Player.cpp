@@ -9,7 +9,7 @@ private:
     std::vector<Fish> fishInv;
     std::vector<Bait> baits;
     std::vector<Mercenary> mercenaries;
-    Gear gear;  // Added gear object
+    Gear gear;
 
 public:
     Player(std::string name) :
