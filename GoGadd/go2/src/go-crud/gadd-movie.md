@@ -20,11 +20,14 @@ application should now be running at http://localhost:8080
 Prof Gadd requires you to access the following endpoints:
 
 GET /movies: Returns a list of all movies.
-GET /movies/{id}: Returns the movie with the specified ID.
-POST /movies: Creates a new movie. The body of the request should be a JSON object representing the movie.
-PUT /movies/{id}: Updates the movie with the specified ID. The body of the request should be a JSON object representing the movie.
-DELETE /movies/{id}: Deletes the movie with the specified ID.
 
+GET /movies/{id}: Returns the movie with the specified ID.
+
+POST /movies: Creates a new movie. The body of the request should be a JSON object representing the movie.
+
+PUT /movies/{id}: Updates the movie with the specified ID. The body of the request should be a JSON object representing the movie.
+
+DELETE /movies/{id}: Deletes the movie with the specified ID.
 
 ### possible tools for use:
 
