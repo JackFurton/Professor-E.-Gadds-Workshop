@@ -18,7 +18,7 @@ These instructions will get you a copy of the project up and running on your loc
 
     ```
     mkdir ~/bin
-    mv ~/rgsearch.sh ~/bin
+    mv rgsearch.sh ~/bin
     ```
 
 3. Add the new `bin` directory to your `PATH` in your `.zshrc` or `.bashrc` file:
