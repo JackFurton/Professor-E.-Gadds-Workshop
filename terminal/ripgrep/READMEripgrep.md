@@ -17,14 +17,14 @@ These instructions will get you a copy of the project up and running on your loc
 2. Move the script into a directory in your `PATH`. For example, you can create a `bin` directory in your home directory and add it to your `PATH`:
 
     ```
-    mkdir ~/bin
-    cp -rp rgsearch.sh ~/bin
+    mkdir ~/binary
+    cp -rp rgsearch.sh ~/binary
     ```
 
-3. Add the new `bin` directory to your `PATH` in your `.zshrc` or `.bashrc` file:
+3. Add the new `binary` directory to your `PATH` in your `.zshrc` or `.bashrc` file:
 
     ```
-    export PATH="$HOME/bin:$PATH"
+    export PATH="$HOME/binary:$PATH"
     ```
 
 4. You can now run the script from any directory:
