@@ -14,7 +14,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Installing and Running the Script
 
 1. Clone the repository or download the Bash script (`rgsearch.sh`).
-2. Move the script into a directory in your `PATH`. For example, you can create a `bin` directory in your home directory and add it to your `PATH`:
+2. Move the script into a directory in your `PATH`. For example, you can create a `binary` directory in your home directory and add it to your `PATH`:
 
     ```
     mkdir ~/binary
