@@ -30,7 +30,7 @@ These instructions will get you a copy of the project up and running on your loc
 4. You can now run the script from any directory:
 
     ```
-    rgsearch.sh -w 'search_term'
+    rgsearch.sh 'search_term'
     ```
 
 ### Using the Script
@@ -39,13 +39,15 @@ The script has the following usage:
 
 - Search for a term anywhere in a file: `rgsearch.sh search_term`
 - Search for whole words only: `rgsearch.sh -w search_term`
+- Search for a term with case insensitivity: `rgsearch.sh -i search_term`
 
-The `-w` option causes `rg` to only match whole words. The script displays the search results with `less -R`, preserving the color output from `rg`.
+The script displays the search results with `less -R`, preserving the color output from `rg`.
 
 ### Options
 
 - `-h` : Display help and exit.
 - `-w` : Only match whole words.
+- `-i` : Case insensitivity search.
 
 If you attempt to use an invalid option, the script will notify you and display the usage information.
 
