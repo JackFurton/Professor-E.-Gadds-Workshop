@@ -6,4 +6,3 @@ while True:
         break
     except ValueError:
         print("Oops! No valid num. Try agayn")
-
