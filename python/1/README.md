@@ -34,3 +34,6 @@ python3 $DIR/wordfreq.py "$@"
  -
  -
  - testing fugitive
+ -
+ -
+ - testing fugitive part2
