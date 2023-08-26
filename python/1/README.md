@@ -31,3 +31,6 @@ python3 $DIR/wordfreq.py "$@"
 
 ### notes
  - ensure error handling is in place
+ -
+ -
+ - testing fugitive
