@@ -1,7 +1,7 @@
 [workspace]
 members = [
     # all crates in a `./crates` folder will be added to the workspace
-	"crates/*",
+    "sql_jr_repl",
 ]
 # https://doc.rust-lang.org/nightly/cargo/reference/specifying-dependencies.html#inheriting-a-dependency-from-a-workspace
 # Shared dependencies across all workspace crates
