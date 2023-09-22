@@ -1,4 +1,0 @@
-rg --color=always 'search term' | less -R
-rg -w --color=always 'search term' | less -R
-
-(-w match on whole words)
