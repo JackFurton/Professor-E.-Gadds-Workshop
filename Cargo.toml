@@ -1,0 +1,12 @@
+[workspace]
+members = [
+    # all crates in a `./crates` folder will be added to the workspace
+	"crates/*",
+]
+# https://doc.rust-lang.org/nightly/cargo/reference/specifying-dependencies.html#inheriting-a-dependency-from-a-workspace
+# Shared dependencies across all workspace crates
+[workspace.dependencies]
+# these are very likely to be used across all/most crates so pin the version for them all
+miette = "5.5.0"
+serde = { version = "1.0.151", features = ["derive"] }
+thiserror = "1.0.38"
