@@ -1,4 +1,5 @@
 [workspace]
+resolver = "2"
 members = [
     # all crates in a `./crates` folder will be added to the workspace
     "sql_jr_repl",
