@@ -1,18 +1,20 @@
 #!/usr/bin/env bash
-#
-#setup a venv to avoid systemwide python package installs
-#
-#run the following!
-#source setup.sh
 
-# Create a virtual environment
-python3 -m venv venv
+set -e
 
-# Activate the virtual environment
-source venv/bin/activate
+function usage {
+    cat <<EOF
+    ./setup.sh YOUR_API_KEY IMAGE_NAME
+EOF
+}
 
-# Install the necessary packages
-pip install -r requirements.txt
+if [[ $# -ne 2 ]]; then
+    echo "required 2 args!"
+    usage
+    exit 1
+fi
 
-#run the following to deactivate venv
-#deactivate
+YOUR_API_KEY="${1}"
+IMAGE_NAME="${2}"
+
+docker build --build-arg API_KEY=${YOUR_API_KEY} -t ${IMAGE_NAME}

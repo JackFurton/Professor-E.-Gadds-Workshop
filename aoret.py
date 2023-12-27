@@ -1,23 +1,10 @@
 #!/usr/bin/env python3
 
-import requests
-from bs4 import BeautifulSoup
+import os
 from googleapiclient.discovery import build
 
-'''
-url = "https://www.youtube.com/@AoretSC2/videos"
-response = requests.get(url)
 
-soup = BeautifulSoup(response.text, 'html.parser')
-print(soup.prettify())
-
-chef_boy_are_lockdown = soup.find_all('a', {'class': 'video-title'})
-
-for title in chef_boy_are_lockdown:
-    print(title.text)
-'''
-
-api_key = "INSERT_API_KEY"
+api_key = os.getenv('API_KEY')
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 request = youtube.search().list(

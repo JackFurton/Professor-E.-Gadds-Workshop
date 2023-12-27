@@ -4,10 +4,12 @@ This script scrapes video titles from a YouTube channel and fetches video descri
 
 ## Setup
 
-1. Clone the repository. git clone git@github.com:JackFurton/Professor-E.-Gadds-Workshop.git
-2. Run the setup script: `source setup.sh`
-3. Insert your YouTube API key and channel ID in the `aoret.py` script.
-4. Run the script: `python3 aoret.py` or `./aoret.py`
+1. Clone the repository. `git clone git@github.com:JackFurton/Professor-E.-Gadds-Workshop.git`
+2. INSTALL [DOCKER](https://docs.docker.com/engine/install/) BREV
+3. Check [Bean Groiler Section](#how-to-get-youtube-api-key)
+4. Run the setup script: `./setup.sh` - THE INITIAL ERROR MAY GUIDE YOU ON YOUR PATH
+5. Currently commited this as an untested Dockerfile - the only true way to develop
+6. reap multisuperfood tier benefits
 
 ## Requirements
 
