@@ -12,3 +12,4 @@ learn.ex
 input
 .envrc
 venv/
+image.log

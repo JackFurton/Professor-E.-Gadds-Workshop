@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+YOUR_API_KEY="${1}"
+IMAGE_NAME="${2}"
+
 set -e
 
 function usage {
@@ -14,7 +17,6 @@ if [[ $# -ne 2 ]]; then
     exit 1
 fi
 
-YOUR_API_KEY="${1}"
-IMAGE_NAME="${2}"
+docker build --build-arg API_KEY=${YOUR_API_KEY} -t ${IMAGE_NAME} .
 
-docker build --build-arg API_KEY=${YOUR_API_KEY} -t ${IMAGE_NAME}
+echo ${IMAGE_NAME} > image.log
