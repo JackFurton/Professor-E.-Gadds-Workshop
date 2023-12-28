@@ -11,4 +11,4 @@ EXPOSE 80
 ARG API_KEY
 ARG API_KEY=${API_KEY}
 
-CMD ["python", "aoret.py"]
+CMD ["python", "scrapper.py"]
