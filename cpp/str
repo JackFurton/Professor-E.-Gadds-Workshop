@@ -1,0 +1,9 @@
+std::string::npos is a special value returned by string handling functions in the C++ Standard Library 
+(including std::string::find, std::string::rfind, std::string::find_first_of, etc.) 
+when they fail to find the pattern you were looking for.
+
+In the context of std::string::find, if the function does not find the substring, it returns std::string::npos.
+
+std::string::npos is typically equal to the maximum value representable by the size type (std::string::size_type), 
+which is usually the maximum value of a size_t. This is effectively the largest possible string size, 
+since string indices must be less than the string size, npos is a safe sentinel value to indicate "not found".
