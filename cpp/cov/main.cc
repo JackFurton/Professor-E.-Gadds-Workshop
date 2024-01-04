@@ -7,7 +7,7 @@ int main () {
     cin >> n;
 
     if (n.find ("COV") != string::npos) {
-        cout << "Veikur\n";
+        cout << "Veikur!\n";
     } else {
         cout << "Ekki veikur!\n";
     }
