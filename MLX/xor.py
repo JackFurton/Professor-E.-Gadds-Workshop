@@ -7,8 +7,12 @@ import mlx.nn as nn
 import mlx.optimizers as o
 import numpy as np
 
+"""
+le testing
+"""
+
 X = mx.array([0, 0, 0, 1, 1, 0, 1, 1,])
-y = mx.array([0, 1, 1, 0]) 
+y = mx.array([0, 1, 1, 0])
 X = X.reshape(4, 2)
 y = y.reshape(4, 1)
 
